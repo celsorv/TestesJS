@@ -4,7 +4,7 @@
 
 (() => {
 
-  /* na arrow function, this sempre faz   referência ao escopo em que ele foi criado. */
+  /* na arrow function, this sempre faz referência ao escopo em que ele foi criado. */
   this.name = 'arrow function';
   
   const getNameArrowFn = () => this.name;
